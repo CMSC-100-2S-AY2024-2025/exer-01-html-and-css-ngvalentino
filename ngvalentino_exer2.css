@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    background-color: #7286A0;
+    justify-content: center;
+    align-items: center;
+    font-family: "Garamond";
+    font-size: 24px;
+
+}
+
+a[href="#aboutDeveloper"] {
+    display: inline-block;
+    background-color: #7286A0;
+    color: black;
+    border: 2px solid #012574;
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+}
+
+a[href="#skills"] {
+    display: inline-block;
+    background-color: #7286A0;
+    color: black;
+    border: 2px solid #012574;
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+}
+
+a[href="#projects"] {
+    display: inline-block;
+    background-color: #7286A0;
+    color: black;
+    border: 2px solid #012574;
+    margin: 5px;
+    height: 50px;
+    width: 200px;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-align: center;
+    align-content: center;
+}
+
+img {
+    border-radius: 8px;
+    display: flex;
+
+}
