@@ -4,7 +4,7 @@ Developer Name: Nicole Phoebe G. Valentino
 
 Degree Program: BS Computer Science
 
-Live Website Link: http://127.0.0.1:5500/exer-01-html-and-css-ngvalentino/ngvalentino_exer2.html#projects
+Live Website Link: https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-ngvalentino/
 
 Steps on how to create GitHub page:
     Step 1: Create a GitHub repository by clicking the "New Repository" button then name it.
