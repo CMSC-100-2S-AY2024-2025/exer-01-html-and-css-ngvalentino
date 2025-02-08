@@ -17,3 +17,4 @@ Steps on how to create GitHub page:
 Key takeaways from this exercise:
 - Basic understanding of HTML structure and CSS styling and layout
 - Good practice for web development
+- Needs further improvement
