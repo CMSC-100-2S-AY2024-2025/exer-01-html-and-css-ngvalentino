@@ -1,0 +1,194 @@
+<!-- Created by: Nicole Phoebe Valentino 12/05/2023 -->
+<!-- CMSC 12 Lab (1S 2023-24)B-1L -->
+<!-- HTML -->
+
+<!-- This program will create an HTML page for setting up a party with details. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PARTY PLANNER</title>
+        <link rel="stylesheet" type="text/css" href="css.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1></h1>
+        </div>
+    
+        <div class="responsive-header">
+            <h1>PARTY PLANNER!!</h1>
+        </div>
+    
+        <div class="customer-info">
+            <form id="orderForm">
+
+                <!-- This is where the user will input their personal information-->
+                <fieldset>
+                    <legend> Customer Information </legend>
+                    <label for="Name">Name:</label>
+                    <input type="text" id="Name" name="Name" required><br>
+                    <label for="number">Mobile Number:</label>
+                    <input type="tel" id="number" name="number" placeholder="09XXXXXXXXX"  pattern="09[0-9]{9}" required> <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="party-details">
+            <form id="orderForm">
+            <!-- The amount of people attending the party-->
+                <fieldset>
+                    <legend> Party Details </legend>
+                    <label for="NOP">Number of People</label>
+                    <input type="number" id="NOP" name="NOP" required min="10"><br>
+
+                <!-- This is a radio type in which users are required to select only one option-->
+                    <legend class="sub-legend">Appetizer</legend>    
+                    <input type="radio" id="salad" name="appetizer" value="Salad" checked>
+                    <label for="salad">Salad</label><br>
+                
+                    <input type="radio" id="bread" name="appetizer" value="Bread w/Dip">
+                    <label for="bread">Bread w/Dip</label><br>
+                
+                    <input type="radio" id="tomato" name="appetizer" value="Tomato Surprise">
+                    <label for="tomato">Tomato Surprise</label><br>
+
+                    <input type="radio" id="mushroom" name="appetizer" value="Mushroom Bites">
+                    <label for="mushroom">Mushroom Bites</label><br>
+
+                <!-- This is a checkbox type in which users are can select multiple options-->
+                    <legend class="sub-legend">Main Dishes</legend>
+                    <input type="checkbox" id="mad1" name="Main Dishes" value="Roast Beef">
+                    <label for="mad1"> Roast Beef</label>
+
+                    <br><input type="checkbox" id="mad2" name="Main Dishes" value="Beef Steak">
+                    <label for="mad2"> Beef Steak</label>
+
+                    <br><input type="checkbox" id="mad3" name="Main Dishes" value="Pork Spareribs">
+                    <label for="mad3"> Pork Spareribs</label>
+
+                    <br><input type="checkbox" id="mad4" name="Main Dishes" value="Pork Marbella">
+                    <label for="mad4"> Pork Marbella</label>
+
+                    <br><input type="checkbox" id="mad5" name="Main Dishes" value="Grilled Chicken">
+                    <label for="mad5"> Grilled Chicken</label>
+
+                    <br><input type="checkbox" id="mad6" name="Main Dishes" value="Roast Chicken">
+                    <label for="mad6"> Roast Chicken</label>
+
+                    <br><input type="checkbox" id="mad7" name="Main Dishes" value="Broiled Salmon">
+                    <label for="mad7"> Broiled Salmon</label>
+
+                    <br><input type="checkbox" id="mad8" name="Main Dishes" value="Grilled Salmon">
+                    <label for="mad8"> Grilled Salmon</label><br>
+                
+                <!-- This is a checkbox type in which users are can select multiple options-->
+                    <legend class="sub-legend">Desserts</legend>
+                    <input type="checkbox" id="des1" name="Desserts" value="Molten Chocolate Cake">
+                    <label for="des1"> Molten Chocolate Cake</label>
+
+                    <br><input type="checkbox" id="des2" name="Desserts" value="Red Velvet Cake">
+                    <label for="des2"> Red Velvet Cake</label>
+
+                    <br><input type="checkbox" id="des3" name="Desserts" value="Lemon Bars">
+                    <label for="des3"> Lemon Bars</label>
+
+                    <br><input type="checkbox" id="des4" name="Desserts" value="Peanut Butter Bars">
+                    <label for="des4"> Peanut Butter Bars</label>
+
+                    <br><input type="checkbox" id="des5" name="Desserts" value="Buko Pie">
+                    <label for="des5"> Buko Pie</label>
+
+                    <br><input type="checkbox" id="des6" name="Desserts" value="Lemon Meringue Pie">
+                    <label for="des6"> Lemon Meringue Pie</label><br>
+
+                <!-- This is a radio type in which users are required to select only one option-->
+                    <legend class="sub-legend">Type of Rice</legend>   
+                    <input type="radio" id="plain" name="Rice" value="Plain" checked>
+                    <label for="plain">Plain</label><br>
+                
+                    <input type="radio" id="garlic" name="Rice" value="Garlic">
+                    <label for="garlic">Garlic</label><br>
+                
+                    <input type="radio" id="bagoong" name="Rice" value="Bagoong">
+                    <label for="bagoong">Bagoong</label><br>
+
+                <!-- This is a radio type in which users are required to select only one option-->
+                    <legend class="sub-legend">Drinks</legend> 
+                    <input type="radio" id="cucumber lemonade" name="Drinks" value="Cucumber Lemonade" checked>
+                    <label for="cucumber lemonade">Cucumber Lemonade</label><br>
+                
+                    <input type="radio" id="red iced tea" name="Drinks" value="Red Iced Tea">
+                    <label for="red iced tea">Red Iced Tea</label><br>
+                
+                    <input type="radio" id="ripe mango juice" name="Drinks" value="Ripe Mango Juice">
+                    <label for="ripe mango juice">Ripe Mango Juice</label><br>
+            
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="delivery-details">
+            <form id="orderForm">
+                <!-- This is where the user input the delivery details -->
+                <fieldset>
+                    <legend> Delivery Details </legend>
+                    <label> Customer will avail of</label><br>
+                    <input type="radio" id="storePickup" name="deliveryOption" value="Store Pickup" checked>
+                    <label for="storePickup"> Store Pickup</label><br>
+
+                    <input type="radio" id="delivery" name="deliveryOption" value="Delivery">
+                    <label for="delivery"> Delivery</label><br>
+
+                    <label> Venue Address <br>
+                        <textarea id="venueAddress" rows=”50” cols=”50” placeholder="Address here..."></textarea><br>
+                    </label>
+                
+                <!-- This is where the user pick the date -->
+                    <br><label for="partyDate">Party date</label>
+                    <input type="date" id="partyDate" name="partyDate" value="" required><br>
+
+                <!-- This is where the user pick the time -->
+                    <label for="partyTime">Party time</label>
+                    <input type="time" id="partyTime" name="partyTime" required> <br>                
+
+                <!-- This is where the user can submit or reset the info they provided above -->
+                    <button type="button" onclick="submitForm()">Submit</button>               
+                    <input type="reset" value="Reset" />
+                </fieldset>
+
+            </form>
+        </div>
+
+        <div class="personal-info">
+            <!-- Display personal information -->
+            <p>Created by: Nicole Phoebe Valentino</p>
+        </div>
+
+        <script src="javascript.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // JavaScript to add and remove the 'scrolled' class based on scroll position
+                window.addEventListener('scroll', function () {
+                    var header = document.querySelector('.responsive-header');
+                    header.classList.toggle('scrolled', window.scrollY > 0);
+                });
+            });
+        </script>
+
+    <body>
+
+</html>
+
+
+<!--https://colorhunt.co/palette/ffc5c5ffebd8c7dca789b9ad-->
+<!--https://www.lightningdesignsystem.com/components/builder-header/-->
+<!--https://blog.avada.io/css/headers-footers-->
+<!--https://www.youtube.com/watch?v=wRNinF7YQqQ-->

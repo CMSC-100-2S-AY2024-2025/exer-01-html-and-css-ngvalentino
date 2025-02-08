@@ -1,44 +1,114 @@
+<!-- Created by Nicole Phoebe Valentino 
+     CMSC 100 UV-5L
+     Exercise 2: HTML and CSS
+     This is the HTML file for creating personal Github page
+--> 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Application</title>
-    <link rel="stylesheet" href="./ngvalentino_exer2.css">
+    <title>Phoebe's Personal Webpage</title>
+    <link rel="stylesheet" href="ngvalentino_exer2.css">
 </head>
-
 <body>
-    <div class="header">
-        <div class="title">Application for a position as a software engineer</div>
-    </div>
+    <!-- HEADER (LOGO + NAVBAR + BACKGROUND IMAGE) -->
+    <header class="header">
+        <div class="navbar">
+            <img src="images/cat.png" alt="Logo" class="logo-icon">
+            <div class="logo"></div>
+            <nav>
+                <button onclick="location.href='#aboutDeveloper'">About Developer</button>
+                <button onclick="location.href='#skills'">Skills</button>
+                <button onclick="location.href='#projects'">Previous Projects</button>
+            </nav>
+        </div>
+        <div class="welcome-text">
+            <h1>WELCOME!!</h1>
+            <p>This is a simple personal webpage featuring <br>
+                the autobiography, skills, and previous projects <br>
+                of the developer.</p>
+        </div>
+    </header>
 
-    <a href="#aboutDeveloper">About Developer</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Previous Projects</a>
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <h2>Previous Projects</h2>
+        <div class="project-boxes">
+            <div class="project"><a href="projects/Website/html.html" target="_blank">Website Party Planner Project </a></div>
+            <div class="project"><a href="projects/Java_project.zip" target="_blank">Java Game Project</a></div>
+        </div>
+    </section>
 
-    <img src="images/cat.jpg" alt="">
+    <!-- SKILLS & AUTOBIOGRAPHY -->
+    <section class="skills-autobiography">
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skill-icons">
+                <img src="images/html.png" alt="HTML">
+                <img src="images/css.png" alt="CSS">
+                <img src="images/c.png" alt="C">
+                <img src="images/python.png" alt="Python">
+                <img src="images/java.png" alt="Java">
+                <img src="images/javascript.jpg" alt="JavaScript">
+                <img src="images/r.png" alt="R">
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="autobiography" id="aboutDeveloper">
+            <h2>AUTHOBIOGRAPHY</h2>
+            <div class="autobiography-content">
+                <div class="autobiography-text">
+                    <p>Developer Name: Nicole Phoebe Valentino <br>
+                    Education Level: Sophomore Batch 2023 <br>
+                    University: University of the Philippines Los Banos <br>
+                    Age: 20 yrs old <br>
+                    Hobbies: Coding with passion, sleep, anime, manhwa, games <br>
+                    Passionate about coding and software development.</p>
+                </div>
+                <div class="autobiography-image">
+                    <img src="images/me.jpg" alt="Profile Picture" class="profile-pic">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h3>About Developer</h3>
-    <div id="aboutDeveloper">
-        <div class="about">Name: Nicole Phoebe Valentino</div>
-    </div>
-
-    <h3>Developer Skills</h3>
-    <div id="skills">
-        <div class="about">HTML</div>
-        <div class="about">CSS</div>
-        <div class="about">C</div>
-        <div class="about">Python</div>
-    </div>
-
-    <h3>Previous Projects</h3>
-    <div id="projects">
-        <div class="about">None</div>
-    </div>
-
-
+    <!-- FOOTER -->
+    <footer class="footer">
+        <!-- Left Side: Logo -->
+        <div class="footer-left">
+            <img src="images/cat.png" alt="Logo" class="footer-logo">
+        </div>
+    
+        <!-- Middle: Contact & Other Info -->
+        <div class="footer-middle">
+            <div class="footer-info">
+                <div class="left-column">
+                    <div class="email">
+                        <img src="images/gmail.png"> ngvalentino@gmail.com
+                    </div>
+                    <div class="github">
+                        <img src="images/github.png">
+                        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="right-column">
+                    <div class="phone">
+                        <img src="images/phone.png"> +63 915 2066 336
+                    </div>
+                    <div class="location">
+                        📍 Los Baños, Philippines
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Rightmost Side: Copyright -->
+        <div class="footer-right">
+            <span class="copyright">© 2024 Nicole Phoebe Valentino. All rights reserved.</span>
+        </div>
+    </footer>
+    
+    
 </body>
-
 </html>

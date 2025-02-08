@@ -1,0 +1,226 @@
+/* Created by: Nicole Phoebe Valentino 12/05/2023 */
+/* CMSC 12 Lab (1S 2023-24)B-1L */
+/* CSS */
+
+/* This is the CSS for the Party Details form. */
+
+/* Responsive header style */
+.responsive-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+    background-color: rgb(199, 220, 167);
+    color: #fff; 
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+/* Add a background color when scrolling */
+.responsive-header.scrolled {
+    background-color: rgb(137, 185, 173);
+}
+
+/* Style the content to push it down when the header is fixed */
+body {
+    margin-top: 150px; 
+    font-family: 'Times New Roman', sans-serif;
+    background-color: rgb(255, 235, 216);
+    margin: 0;
+    padding: 0;
+}
+
+/* Existing styles*/
+.header {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 5px 5px 5px rgb(255, 197, 197), 0px -5px 5px rgb(255, 197, 197);
+    padding: 20px;
+}
+
+/* Section divs style*/
+.customer-info,
+.party-details,
+.delivery-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(199, 220, 167);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Some spacing between section divs */
+.customer-info {
+    margin-bottom: 20px;
+}
+
+.party-details {
+    margin-bottom: 20px;
+}
+
+/* Style for form container */
+form {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(137, 185, 173);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+/* Style for form fieldsets */
+fieldset {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style legends for fieldsets */
+fieldset legend {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+/* Style sub-legends for specific fieldsets */
+.party-details legend.sub-legend {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* Style for section headings */
+.customer-info legend,
+.party-details legend,
+.delivery-details legend {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Style for text inputs and textareas */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 235, 216);
+    font-size: 16px;
+}
+
+/* Style for number input */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 235, 216);
+    font-size: 16px;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Style for radio and checkbox inputs */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+    background-color: rgb(255, 235, 216);
+}
+
+/* Style for labels for radio and checkbox */
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+    vertical-align: middle;
+}
+
+/* Style for textarea for address */
+textarea {
+    width: 270%;
+    height: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16px;
+}
+
+/* Style for date and time inputs */
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: block;
+    background-color: rgb(255, 235, 216);
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16px;
+}
+
+/* Style for submit and reset buttons */
+button[type="button"],
+input[type="reset"] {
+    background-color: rgb(255, 197, 197);
+    font-family: 'Times New Roman', sans-serif;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button[id="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: rgb(255, 197, 197);
+}
+
+
+.personal-info {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.personal-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Add some spacing to improve readability */
+br {
+margin-top: 10px;
+margin-bottom: 10px;
+}

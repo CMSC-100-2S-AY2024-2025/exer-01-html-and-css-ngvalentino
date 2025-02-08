@@ -1,0 +1,18 @@
+images used:
+- https://livewallp.com/violet-evergarden-live-wallpaper/
+- https://en.m.wikipedia.org/wiki/File:Python-logo-notext.svg 
+- https://commons.wikimedia.org/wiki/File:C_Programming_Language.svg 
+- https://en.m.wikipedia.org/wiki/File:HTML5_logo_and_wordmark.svg
+- https://en.m.wikipedia.org/wiki/File:CSS3_logo_and_wordmark.svg
+- https://www.vecteezy.com/png/27127463-javascript-logo-png-javascript-icon-transparent-png
+- https://commons.wikimedia.org/wiki/File:R_logo.svg
+- https://1000logos.net/java-logo/
+- https://1000logos.net/gmail-logo/
+- https://www.flaticon.com/free-icon/github-logo_25231
+- https://uxwing.com/phone-call-white-icon/
+- https://www.kapwing.com/explore/crying-cat-meme-maker
+
+
+Referenced sites:
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://www.w3schools.com/css/css_rwd_mediaqueries.asp
